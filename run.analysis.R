@@ -1,11 +1,12 @@
-training <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/train/X_train.txt")
-training_y <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/train/y_train.txt")
-training_subj <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/train/subject_train.txt")
-test <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/test/X_test.txt")
-test_y <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/test/y_test.txt")
-test_subj <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/test/subject_test.txt")
-features <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/features.txt", row.names = 1)
-activity <- read.table("~/Dropbox/Statistics/R/Coursera/UCI HAR Dataset/activity_labels.txt", row.names = 1)
+setwd(~/)
+training <- read.table("~/UCI HAR Dataset/train/X_train.txt")
+training_y <- read.table("~/UCI HAR Dataset/train/y_train.txt")
+training_subj <- read.table("~/UCI HAR Dataset/train/subject_train.txt")
+test <- read.table("~/UCI HAR Dataset/test/X_test.txt")
+test_y <- read.table("~/UCI HAR Dataset/test/y_test.txt")
+test_subj <- read.table("~/UCI HAR Dataset/test/subject_test.txt")
+features <- read.table("~/UCI HAR Dataset/features.txt", row.names = 1)
+activity <- read.table("~/UCI HAR Dataset/activity_labels.txt", row.names = 1)
 
 ###
 
